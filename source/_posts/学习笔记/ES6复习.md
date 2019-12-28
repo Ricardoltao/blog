@@ -1,8 +1,11 @@
 ---
-title: ES6复习(上)
+title: ES6复习(一)
 date: 2019-12-14 16:10:14
-tags: ES6,复习笔记
+tags: 
+- ES6
+- 复习笔记
 categories: ES6
+top_img: https://raw.githubusercontent.com/Ricardoltao/Photo/master/shahadat.jpg
 ---
 
 # ES6复习（Promise、Iterator）
