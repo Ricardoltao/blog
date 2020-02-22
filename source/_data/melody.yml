@@ -15,10 +15,10 @@ theme_color:
 
 # Main menu navigation
 menu:
-  Home: /
-  Archives: /archives
-  Tags: /tags
-  Categories: /categories
+  首页: /
+  归档: /archives
+  标签: /tags
+  分类: /categories
   #XXX: /xxx
 
 # Favicon
@@ -136,7 +136,7 @@ avatar: https://raw.githubusercontent.com/Ricardoltao/Photo/master/avatar.jpg
 top_img: https://raw.githubusercontent.com/Ricardoltao/Photo/master/tolga.jpg
 
 post_meta:
-  date_type: created # created or updated
+  date_type: updated # created or updated
   categories: true
   tags: true
 
@@ -156,7 +156,7 @@ post_copyright:
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/theme-config?id=auto-excerpt
 auto_excerpt:
   enable: true
-  length: 150
+  length: 350
 
 # slide
 # For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
