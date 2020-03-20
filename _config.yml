@@ -5,7 +5,7 @@
 # Site
 title: RicardoJiang's Blog
 subtitle: ''
-description: ''
+description: '每天进步一点点'
 keywords:
 author: Ricardo Jiang
 language: zh-Hans
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -56,7 +56,7 @@ highlight:
 index_generator:
   path: ''
   per_page: 6
-  order_by: -date
+  order_by: -updated
 
 # Category & Tag
 default_category: uncategorized
@@ -90,7 +90,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: melody
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -98,3 +98,11 @@ deploy:
   type: git
   repo: https://github.com/Ricardoltao/ricardoltao.github.io.git
   branch: master 
+
+
+# Search
+search:
+  path: ./public/search.xml
+  field: post
+  format: html
+  limit: 10000
